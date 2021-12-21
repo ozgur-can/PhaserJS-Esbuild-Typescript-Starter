@@ -1,0 +1,28 @@
+{
+  "name": "PhaserJS-Typescript-Starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./scripts/esbuild.config.js -w",
+    "build": "node ./scripts/esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgrcnltnk/PhaserJS-Typescript-Starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgrcnltnk/PhaserJS-Typescript-Starter/issues"
+  },
+  "homepage": "https://github.com/zgrcnltnk/PhaserJS-Typescript-Starter#readme",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "esbuild-serve": "^1.0.1"
+  }
+}
